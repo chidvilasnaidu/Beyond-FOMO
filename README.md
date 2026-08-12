@@ -480,8 +480,7 @@ Beyond-FOMO/
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
 ├── .env                    # Local API credentials
-├── FOMO.db                 # Generated SQLite checkpoint database
-└── speech.mp3              # Generated TTS audio
+├── FOMO_Report_latex.pdf   # Detailed Report
 ```
 
 ------------------------------------------------------------------------

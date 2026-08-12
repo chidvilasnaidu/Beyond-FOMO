@@ -51,7 +51,7 @@ st.markdown(
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
 
 html{
-    font-size:18px;
+    font-size:16px;
 }
 
 html, body, [class*="css"]{
@@ -883,15 +883,15 @@ div[data-testid="stForm"] div[data-testid="column"]:nth-child(3) button:hover{
     }
 
     .chat-card{
-        min-height:590px;
+        min-height:510px;
     }
 
     .bot-stage{
-        height:240px;
+        height:185px;
     }
 
     .title-block h1{
-        font-size:2.65rem;
+        font-size:2.25rem;
     }
 
     .footer{

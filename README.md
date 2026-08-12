@@ -45,7 +45,7 @@ The project addresses two sides of FOMO:
 
 ------------------------------------------------------------------------
 
-## 🏗️ Architecture
+## Architecture
 
 ``` text
 Text / Voice / Image
@@ -361,7 +361,7 @@ presenting every item equally.
 
 ------------------------------------------------------------------------
 
-## 🎓 Opportunity Detection
+## Opportunity Detection
 
 The Opportunity Finder extracts:
 
@@ -595,7 +595,7 @@ All rights, ownership, and intellectual property of the original materials remai
 If you believe that any material has been used inappropriately or without proper attribution, please contact me so that I can review and address the concern.
 
 For any queries or concerns, please contact:
-📧 chidvilasnaidu99@gmail.com
+ chidvilasnaidu99@gmail.com
 ------------------------------------------------------------------------
 
 ##  Author

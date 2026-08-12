@@ -8,7 +8,9 @@ information that actually matters.
 
 ## 🚀 Live Demo
 
-👉 **[Launch Beyond FOMO](https://beyond-fomo-chidvilas.streamlit.app/)**
+👉 **[Live APP Streamlit](https://beyond-fomo-chidvilas.streamlit.app/)**
+
+
 The project addresses two sides of FOMO:
 
 -   **Social FOMO:** exposure to social comparison, toxic discussions,

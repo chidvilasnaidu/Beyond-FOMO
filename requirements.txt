@@ -1,0 +1,16 @@
+langchain-google-genai
+langgraph
+langgraph-checkpoint-sqlite
+langchain-community
+duckduckgo-search
+ddgs
+python-dotenv
+streamlit
+transformers
+torch
+torchvision
+soundfile
+numpy
+edge-tts
+pillow
+sentencepiece

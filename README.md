@@ -345,21 +345,6 @@ User Input
 
 ------------------------------------------------------------------------
 
-##  FOMO Priority
-
-Information is classified into four levels:
-
-  Priority       Meaning
-  -------------- -----------------------------------------------
-  🚨 Critical    May require prompt attention
-  ⚠️ Important   Useful information that should not be ignored
-  🕐 Can Wait    Relevant but not urgent
-  🚫 Ignore      Low-value information for the current user
-
-This transforms raw information into actionable signals instead of
-presenting every item equally.
-
-------------------------------------------------------------------------
 
 ## Opportunity Detection
 

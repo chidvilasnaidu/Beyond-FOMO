@@ -1,4 +1,4 @@
-# 🛰️ Beyond FOMO
+#  Beyond FOMO
 
 ### An Agentic AI-Based Information Filtering and Opportunity Assistant
 
@@ -19,29 +19,29 @@ The project addresses two sides of FOMO:
 
 ------------------------------------------------------------------------
 
-## ✨ Features
+##  Features
 
--   🔎 Live news, events, deadlines, and announcement retrieval
--   🌐 Evergreen web search for facts, comparisons, rankings, and how-to
+-   Live news, events, deadlines, and announcement retrieval
+-   Evergreen web search for facts, comparisons, rankings, and how-to
     questions
--   🗂️ Category updates for jobs, visas, scholarships, AI, business, and
+-    Category updates for jobs, visas, scholarships, AI, business, and
     technology
--   🚦 FOMO Priority classification: **Critical / Important / Can Wait /
+-    FOMO Priority classification: **Critical / Important / Can Wait /
     Ignore**
--   🎓 Opportunity detection for scholarships, jobs, internships, visas,
+-    Opportunity detection for scholarships, jobs, internships, visas,
     deadlines, and government announcements
--   🧼 Anti-noise moderation for hate speech, gossip, clearly unverified
+-    Anti-noise moderation for hate speech, gossip, clearly unverified
     claims, source clutter, and promotional noise
--   👤 Preference-based personalization for categories, response style,
+-    Preference-based personalization for categories, response style,
     and language
--   🌍 Translation support for English, Telugu, Hindi, French, and
+-    Translation support for English, Telugu, Hindi, French, and
     Italian
--   🎙️ Voice input using Hugging Face Whisper
--   🔊 Text-to-speech using Edge TTS
--   🖼️ Image-to-text using Hugging Face TrOCR
--   🧠 LangChain + LangGraph agentic workflow
--   💾 SQLite conversation checkpointing
--   💬 Streamlit multimodal chat interface
+-    Voice input using Hugging Face Whisper
+-   Text-to-speech using Edge TTS
+-   Image-to-text using Hugging Face TrOCR
+-    LangChain + LangGraph agentic workflow
+-    SQLite conversation checkpointing
+-    Streamlit multimodal chat interface
 
 ------------------------------------------------------------------------
 
@@ -131,7 +131,7 @@ autonomous agents.
 
 ------------------------------------------------------------------------
 
-## 📋 Prerequisites
+## Prerequisites
 
 -   Python **3.10+** recommended
 -   Git
@@ -144,7 +144,7 @@ application also reads `HF_TOKEN` for Hugging Face models.
 
 ------------------------------------------------------------------------
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the repository
 
@@ -214,7 +214,7 @@ Never commit `.env` or API keys to GitHub.
 
 ------------------------------------------------------------------------
 
-## ▶️ Run the Application
+## Run the Application
 
 The project should contain:
 
@@ -241,7 +241,7 @@ http://localhost:8501
 
 ------------------------------------------------------------------------
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Current AI updates
 
@@ -305,7 +305,7 @@ Ignore
 
 ------------------------------------------------------------------------
 
-## 🔄 End-to-End Workflow
+##  End-to-End Workflow
 
 ``` text
 User Input
@@ -345,7 +345,7 @@ User Input
 
 ------------------------------------------------------------------------
 
-## 🚦 FOMO Priority
+##  FOMO Priority
 
 Information is classified into four levels:
 
@@ -377,7 +377,7 @@ consumption.
 
 ------------------------------------------------------------------------
 
-## 🧼 Anti-Noise Layer
+## Anti-Noise Layer
 
 Retrieved information passes through a moderation stage that attempts
 to:
@@ -394,7 +394,7 @@ The objective is to **filter noise without removing useful signals**.
 
 ------------------------------------------------------------------------
 
-## 🌍 Multilingual and Audio Processing
+## Multilingual and Audio Processing
 
 Supported translation/output languages:
 
@@ -433,7 +433,7 @@ Spoken Response
 
 ------------------------------------------------------------------------
 
-## 🖼️ Image-to-Text
+##  Image-to-Text
 
 The application uses:
 
@@ -468,7 +468,7 @@ Summary / Explanation / Priority
 
 ------------------------------------------------------------------------
 
-## 🧠 Prompt Engineering
+##  Prompt Engineering
 
 Prompt engineering establishes the behavior of FOMO Guardian. Important
 rules include:
@@ -486,7 +486,7 @@ noise-filtering layer after retrieval.
 
 ------------------------------------------------------------------------
 
-## 📁 Project Structure
+##  Project Structure
 
 ``` text
 Beyond-FOMO/
@@ -501,7 +501,7 @@ Beyond-FOMO/
 
 ------------------------------------------------------------------------
 
-## 🔐 Security
+## Security
 
 Add the following to `.gitignore`:
 
@@ -520,7 +520,7 @@ Never commit Google, Hugging Face, or other API credentials.
 
 ------------------------------------------------------------------------
 
-## ⚠️ Limitations
+## Limitations
 
 -   The system cannot guarantee that a user will never miss an important
     update.
@@ -539,7 +539,7 @@ Never commit Google, Hugging Face, or other API credentials.
 
 ------------------------------------------------------------------------
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 -   Source credibility scoring
 -   Citation-aware answers
@@ -558,7 +558,7 @@ Never commit Google, Hugging Face, or other API credentials.
 
 ------------------------------------------------------------------------
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome.
 
@@ -586,7 +586,7 @@ unnecessary files.
 
 ------------------------------------------------------------------------
 
-## 📄 License
+##  License
 
 This project was developed using various open-source materials, libraries, models, resources, and publicly available information from the internet. Some of these resources or information may have been used directly or indirectly during the development of this project.
 
@@ -598,7 +598,7 @@ For any queries or concerns, please contact:
 📧 chidvilasnaidu99@gmail.com
 ------------------------------------------------------------------------
 
-## 👤 Author
+##  Author
 
 **Kumkapalla Chidvilas**
 
@@ -608,7 +608,7 @@ For any queries or concerns, please contact:
 
 ------------------------------------------------------------------------
 
-## 📚 Research Context
+##  Research Context
 
 Beyond FOMO is motivated by the information-management paradox described
 in the project report: social-media consumption can introduce
@@ -624,7 +624,7 @@ The project therefore follows a **signal-over-noise** approach:
 
 ------------------------------------------------------------------------
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 This project uses:
 

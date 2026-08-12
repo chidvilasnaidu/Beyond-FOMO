@@ -1159,10 +1159,31 @@ with left_col:
     )
 
 load_dotenv()
-HF_TOKEN = os.getenv("HF_TOKEN")
+
+# Get secrets from Streamlit Cloud first,
+# then fall back to local .env
+try:
+    GOOGLE_API_KEY = st.secrets.get("GOOGLE_API_KEY")
+    HF_TOKEN = st.secrets.get("HF_TOKEN")
+except Exception:
+    GOOGLE_API_KEY = None
+    HF_TOKEN = None
+
+if not GOOGLE_API_KEY:
+    GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+if not HF_TOKEN:
+    HF_TOKEN = os.getenv("HF_TOKEN")
+
+# Make the key available to the backend
+if GOOGLE_API_KEY:
+    os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
+
+if HF_TOKEN:
+    os.environ["HF_TOKEN"] = HF_TOKEN
 
 with right_col:
-    api_key_ready = bool(os.environ.get("GOOGLE_API_KEY"))
+    api_key_ready = bool(GOOGLE_API_KEY)
 
     with st.container(key="right_chat"):
         chat_placeholder = st.empty()

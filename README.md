@@ -588,16 +588,14 @@ unnecessary files.
 
 ## 📄 License
 
-No license file was specified in the supplied project materials.
+This project was developed using various open-source materials, libraries, models, resources, and publicly available information from the internet. Some of these resources or information may have been used directly or indirectly during the development of this project.
 
-If you want to publish this project as open source, add a `LICENSE` file
-and state the selected license here. For example:
+All rights, ownership, and intellectual property of the original materials remain with their respective authors, creators, organizations, and copyright holders. I do not claim ownership of any third-party materials used in this project.
 
-``` text
-This project is licensed under the MIT License.
-See the LICENSE file for details.
-```
+If you believe that any material has been used inappropriately or without proper attribution, please contact me so that I can review and address the concern.
 
+For any queries or concerns, please contact:
+📧 chidvilasnaidu99@gmail.com
 ------------------------------------------------------------------------
 
 ## 👤 Author
